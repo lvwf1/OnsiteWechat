@@ -1,0 +1,7 @@
+<!--pages/tool/tool.wxml-->
+<view class='container'>
+<button bindtap='bjgc'>北京工厂</button>
+<button bindtap='shgc'>上海工厂</button>
+<button bindtap='hygc'>惠阳工厂</button>
+<button bindtap='szgc'>深圳工厂</button>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/tool/tool",
+    "pages/report/report",
+    "pages/me/me",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "MFGITOPS",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/tool/tool",
+      "text": "工具",
+      "iconPath": "/pages/image/wxb1.png",
+      "selectedIconPath": "/pages/image/wxb1.png"
+    },
+    {
+      "pagePath": "pages/report/report",
+      "text": "报表",
+      "iconPath": "/pages/image/wxb2.png",
+      "selectedIconPath": "/pages/image/wxb2.png"
+    },
+    {
+      "pagePath":"pages/my/my",
+      "text": "账号",
+      "iconPath": "/pages/image/wxb3.png",
+      "selectedIconPath":"/pages/image/wxb3.png"
+    }
+    ]
+  }
+}
